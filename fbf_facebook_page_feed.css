@@ -1,0 +1,38 @@
+/*
+CSS Name: Default Styles
+Description: FBF - Facebook Page Feed Widget Stylesheet
+Author: Lakshmanan PHP
+Version: 1.2.1
+
+You can add your own styles according to your theme - 25-aug-2012
+Few styles are changed - container bg color and width removed - 7 feb 2013
+*/
+
+/* ----------- List style -------------*/
+
+.fbf_facebook_page_widget_container {
+	border-bottom: 1px #ccc; 
+	/* -add your own styles -*/
+}
+
+.fbf_facebook_page_widget li {
+	border-bottom: 1px dashed #dbdbdb;
+	list-style-type: none;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.fbf_facebook_page_widget h4 {
+	font-size: 14px;
+	/* -add your own styles -*/
+}
+.fbf_facebook_page_widget a, .fbf_facebook_page_widget a:hover{ 
+	text-decoration:none;
+	/* -add your own styles -*/
+}
+.facebook_page-avatar img { 
+	border:none;
+	float:left;
+	padding:5px;
+	/* -add your own styles -*/
+}
+
